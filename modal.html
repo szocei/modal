@@ -6,9 +6,12 @@
     <title>Modal</title>
     <link rel="stylesheet" href="./css/modal.css">
 </head>
-<body>
+<body >
+
+   
     <button class="nyito" onclick="showModal()">nyitó</button>
-  
+  <div class="overlay" onclick="closeModal()">
+</div>
     <div class="modal">
     <button onclick="closeModal()" class="close__btn">X</button>
     <header class="header"><h1>CSSScript.com</h1></header>
@@ -32,6 +35,7 @@
 
     </footer>
 </div>
+
     <script src="./js/modal.js"></script>
 </body>
 </html>
