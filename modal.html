@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="./css/modal.css">
 </head>
 <body>
-    <button class="nyito" onclick="">nyitó</button>
+    <button class="nyito" onclick="showModal()">nyitó</button>
   
     <div class="modal">
-    <button onclick="" class="close__btn">X</button>
+    <button onclick="closeModal()" class="close__btn">X</button>
     <header class="header"><h1>CSSScript.com</h1></header>
    
-        <section>
+        <section class="section__1">
             <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -27,8 +27,8 @@
     
     <footer>
         
-<button class="footer__btn--Okey">Okey</button>
-<button class="footer__btn--Cancel">Cancel</button>
+<button onclick="closeModal()" class="footer__btn--Okey">Okey</button>
+<button onclick="closeModal()" class="footer__btn--Cancel">Cancel</button>
 
     </footer>
 </div>
